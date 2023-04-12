@@ -1,0 +1,159 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Số lượng tệp hình ảnh:  118\n"
+     ]
+    }
+   ],
+   "source": [
+    "import os\n",
+    "\n",
+    "# Thư mục chứa ảnh\n",
+    "image_dir = \"../data/images_test\"\n",
+    "image_paths = []\n",
+    "\n",
+    "# Duyệt qua các thư mục con và thêm đường dẫn các tệp hình ảnh vào danh sách\n",
+    "for root, dirs, files in os.walk(image_dir):\n",
+    "    for file in files:\n",
+    "        # Kiểm tra nếu tệp là một tệp hình ảnh\n",
+    "        if os.path.splitext(file)[1].lower() in ('.jpg', '.jpeg', '.png'):\n",
+    "            image_path = os.path.join(root, file)\n",
+    "            image_paths.append(image_path)\n",
+    "\n",
+    "# In số lượng tệp hình ảnh\n",
+    "print(\"Số lượng tệp hình ảnh: \", len(image_paths))"
+   ],
+   "metadata": {
+    "collapsed": false,
+    "ExecuteTime": {
+     "start_time": "2023-04-09T06:17:15.879902Z",
+     "end_time": "2023-04-09T06:17:15.919868Z"
+    }
+   }
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "metadata": {
+    "collapsed": true,
+    "ExecuteTime": {
+     "start_time": "2023-04-09T06:17:20.898571Z",
+     "end_time": "2023-04-09T06:17:20.933857Z"
+    }
+   },
+   "outputs": [],
+   "source": [
+    "import cv2\n",
+    "from deepface import DeepFace\n",
+    "import time\n",
+    "from tqdm import tqdm\n",
+    "\n",
+    "# Các thông số đầu vào\n",
+    "detectors = ['opencv', 'ssd', 'mtcnn', 'retinaface']\n",
+    "confidence = 0.9\n",
+    "save_path = \"../data/images_test_detection\"\n",
+    "\n",
+    "# Khởi tạo biến đếm khuôn mặt và thời gian\n",
+    "face_counts = {'opencv': 0, 'ssd': 0, 'mtcnn': 0, 'retinaface': 0}\n",
+    "time_total = {'opencv': 0, 'ssd': 0, 'mtcnn': 0, 'retinaface': 0}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "outputs": [],
+   "source": [
+    "for detector in detectors:\n",
+    "    # tạo thư mục chứa ảnh gương mặt\n",
+    "    path = os.path.join(save_path, detector)\n",
+    "    if not os.path.exists(path):\n",
+    "        os.makedirs(path)\n",
+    "\n",
+    "    count = 0\n",
+    "    _time = 0\n",
+    "    for image_path in tqdm(image_paths):\n",
+    "        try:\n",
+    "            # trích xuất khuôn mặt từ ảnh\n",
+    "            start_time = time.time()\n",
+    "            results = DeepFace.extract_faces(img_path=image_path, detector_backend=detector, enforce_detection=False, align=False)\n",
+    "            end_time= time.time()\n",
+    "\n",
+    "            result = results[0]\n",
+    "            if result['confidence'] > confidence:\n",
+    "                count += 1\n",
+    "                # lưu khuôn mặt\n",
+    "                rgb_image = cv2.cvtColor(result['face'], cv2.COLOR_BGR2RGB)\n",
+    "                img_uint8 = (rgb_image * 255).astype('uint8')\n",
+    "                if not cv2.imwrite(os.path.join(path, \"face_\" + str(count) + \".jpg\"), img_uint8):\n",
+    "                    raise Exception(\"Could not write image\")\n",
+    "            _time += (end_time - start_time)\n",
+    "\n",
+    "        except Exception as e:\n",
+    "            print(\"Error occurred: \", e)\n",
+    "            continue\n",
+    "    print(\"Complete:\", detector, ', count:', count, ', time:', round(_time, 3))\n",
+    "    # Lưu lại kết quả\n",
+    "    face_counts[detector] = count\n",
+    "    time_total[detector] = round(_time, 3)"
+   ],
+   "metadata": {
+    "collapsed": false
+   }
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "opencv=> face: 92 time: 17.787\n",
+      "ssd=> face: 116 time: 5.551\n",
+      "mtcnn=> face: 118 time: 158.74\n",
+      "retinaface=> face: 118 time: 396.326\n"
+     ]
+    }
+   ],
+   "source": [
+    "for detector in detectors:\n",
+    "    print(detector + \"=>\", \"face:\", face_counts[detector], \"time:\", time_total[detector])"
+   ],
+   "metadata": {
+    "collapsed": false,
+    "ExecuteTime": {
+     "start_time": "2023-04-09T06:10:36.982716Z",
+     "end_time": "2023-04-09T06:10:37.014494Z"
+    }
+   }
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}

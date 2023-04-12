@@ -1,0 +1,352 @@
+[
+    {
+        "id": "CE001",
+        "name": "Thu Minh",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Thu_Minh",
+        "article": "Vũ Thu Minh, thường được biết đến với nghệ danh Thu Minh, là một nữ ca sĩ người Việt Nam. Thu Minh được mệnh danh là \"Nữ hoàng nhạc dance\" của nền âm nhạc Việt Nam, cô từng được đề cử 7 lần tại giải Cống hiến, giành 1 giải Mnet Asian Music Awards. "
+    },
+    {
+        "id": "CE002",
+        "name": "Nam Em",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Nam_Em",
+        "article": "Nam Em là một hoa hậu, ca sĩ, diễn viên và người mẫu nổi tiếng người Việt Nam. Trước đây, Nam Em là Quân nhân và đã ra quân để hoạt động nghệ thuật. "
+    },
+    {
+        "id": "CE003",
+        "name": "Việt Hương",
+        "description": "Nghệ sĩ hài",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Vi%E1%BB%87t_H%C6%B0%C6%A1ng",
+        "article": "Nguyễn Việt Hương thường được biết đến với nghệ danh Việt Hương, là một nữ nghệ sĩ hài nổi tiếng kiêm diễn viên điện ảnh, MC và giám khảo chương trình truyền hình người Việt Nam."
+    },
+    {
+        "id": "CE004",
+        "name": "Mỹ Tâm",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/M%E1%BB%B9_T%C3%A2m",
+        "article": "Phan Thị Mỹ Tâm, thường được biết đến với nghệ danh Mỹ Tâm, là một nữ ca sĩ kiêm sáng tác nhạc, đạo diễn, diễn viên và giám khảo truyền hình người Việt Nam. "
+    },
+    {
+        "id": "CE005",
+        "name": "Sơn Tùng M-TP",
+        "description": "Ca sĩ kiêm sáng tác nhạc",
+        "wiki_url": "https://vi.wikipedia.org/wiki/S%C6%A1n_T%C3%B9ng_M-TP",
+        "article": "Nguyễn Thanh Tùng, thường được biết đến với nghệ danh Sơn Tùng M-TP, là một nam ca sĩ kiêm sáng tác nhạc, rapper và diễn viên người Việt Nam.\n"
+    },
+    {
+        "id": "CE006",
+        "name": "Trấn Thành",
+        "description": "Nghệ sĩ hài",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A5n_Th%C3%A0nh",
+        "article": "Huỳnh Trấn Thành, nổi tiếng với nghệ danh Trấn Thành, là một nam nghệ sĩ hài, người dẫn chương trình kiêm diễn viên điện ảnh và nhà làm phim người Việt Nam gốc Hoa. Anh bắt đầu sự nghiệp với vai trò MC sau khi đoạt giải ba cuộc thi Én Vàng 2006."
+    },
+    {
+        "id": "CE007",
+        "name": "Trường Giang",
+        "description": "Nghệ sĩ hài",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_Giang_(ngh%E1%BB%87_s%C4%A9)",
+        "article": "Võ Vũ Trường Giang, nổi tiếng với nghệ danh Trường Giang hay còn gọi với tên thân mật là Mười Khó, là một nam nghệ sĩ hài, nghệ sĩ kịch nói, người dẫn chương trình truyền hình và diễn viên điện ảnh người Việt Nam. "
+    },
+    {
+        "id": "CE008",
+        "name": "Xuân Bắc",
+        "description": "Diễn viên",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Xu%C3%A2n_B%E1%BA%AFc_(di%E1%BB%85n_vi%C3%AAn)",
+        "article": "Nguyễn Xuân Bắc là một Nghệ sĩ ưu tú, diễn viên, người dẫn chương trình, nghệ sĩ hài người Việt Nam. Hiện anh đang là giám đốc nhà hát kịch Việt Nam. "
+    },
+    {
+        "id": "CE009",
+        "name": "Hà Anh Tuấn",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/H%C3%A0_Anh_Tu%E1%BA%A5n",
+        "article": "Hà Anh Tuấn là một nam ca sĩ người Việt Nam. Anh từng giành được 13 đề cử và 2 lần đoạt giải Cống hiến. Hà Anh Tuấn bắt đầu nổi tiếng từ khi lọt vào top 3 cuộc thi Sao Mai điểm hẹn mùa thứ 2 năm 2006. "
+    },
+    {
+        "id": "CE010",
+        "name": "Tuấn Hưng",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Tu%E1%BA%A5n_H%C6%B0ng",
+        "article": "Tuấn Hưng tên thật là Nguyễn Tuấn Hưng, là nam ca sĩ nhạc trẻ, diễn viên đáng chú ý người Việt Nam.\nSở hữu chất giọng lạ, khỏe khoắn pha chút trầm và khàn đầy nam tính kết hợp cùng phong cách \"ngông\" của mình, Tuấn Hưng đã chinh phục được tình cảm của nhiều khán giả, trở thành nam ca sĩ có chỗ đứng vững chắc trong làng nhạc Việt.\n"
+    },
+    {
+        "id": "CE011",
+        "name": "Kiều Minh Tuấn",
+        "description": "Diễn viên điện ảnh",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Ki%E1%BB%81u_Minh_Tu%E1%BA%A5n",
+        "article": "Kiều Minh Tuấn là một nam diễn viên điện ảnh người Việt Nam. Anh được biết đến và nổi tiếng qua các tác phẩm điện ảnh như: Bụi đời Chợ Lớn, Scandal: Hào quang trở lại, Em chưa 18, Lật mặt: Ba chàng khuyết, Hạnh phúc của mẹ Anh Trai Yêu Quái Nắng 3: Lời hứa của cha, Chị Mười Ba: Ba Ngày Sinh Tử, Tiệc trăng máu, Chìa khóa trăm tỷ."
+    },
+    {
+        "id": "CE012",
+        "name": "Nhã Phương",
+        "description": "Diễn viên",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Nh%C3%A3_Ph%C6%B0%C6%A1ng_(di%E1%BB%85n_vi%C3%AAn)",
+        "article": "Trần Thị Nhã Phương nổi tiếng với nghệ danh Nhã Phương hay Nabi Nhã Phương, là một nữ diễn viên điện ảnh - truyền hình người Việt Nam."
+    },
+    {
+        "id": "CE013",
+        "name": "BB Trần",
+        "description": "Diễn viên",
+        "wiki_url": "https://vi.wikipedia.org/wiki/BB_Tr%E1%BA%A7n",
+        "article": "Trần Phan Quốc Bảo, thường được biết đến với nghệ danh BB Trần, là một diễn viên hài, nhà sản xuất phim, youtuber, người mẫu Việt Nam. Anh nổi tiếng khi là trưởng nhóm hài BB&amp;BG và phát triển thông qua các chương trình truyền hình, parody, ..."
+    },
+    {
+        "id": "CE014",
+        "name": "Anh Tú",
+        "description": "Diễn viên",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Anh_T%C3%BA_(sinh_1993)",
+        "article": "Bùi Anh Tú có nghệ danh là Anh Tú hay Anh Tú Atus là một nam diễn viên kịch nói, diễn viên truyền hình, diễn viên điện ảnh kiêm ca sĩ người Việt Nam. "
+    },
+    {
+        "id": "CE015",
+        "name": "Ưng Hoàng Phúc",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/%C6%AFng_Ho%C3%A0ng_Ph%C3%BAc",
+        "article": "Nguyễn Quốc Thanh, hay còn được biết đến với nghệ danh Ưng Hoàng Phúc, là một nam ca sĩ, diễn viên kiêm vũ công người Việt Nam. Với doanh số khoảng 250 nghìn đĩa được tiêu thụ, anh là một trong những nghệ sĩ V-pop bán đĩa chạy nhất. Anh từng là ca sĩ độc quyền của công ty Thế giới Giải Trí.\n"
+    },
+    {
+        "id": "CE016",
+        "name": "Phương Ly",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Ph%C6%B0%C6%A1ng_Ly",
+        "article": "Trần Phương Ly, thường được biết đến với nghệ danh Phương Ly, là một nữ ca sĩ người Việt Nam. Cô bắt đầu nổi danh với vai trò là một nhân vật nổi tiếng trên mạng xã hội, sau đó hoạt động với tư cách là một nghệ sĩ âm nhạc và nhanh chóng nhận về những thành công lớn. "
+    },
+    {
+        "id": "CE017",
+        "name": "Phan Mạnh Quỳnh",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Phan_M%E1%BA%A1nh_Qu%E1%BB%B3nh",
+        "article": "Phan Mạnh Quỳnh là một ca sĩ kiêm nhạc sĩ của Việt Nam. Anh giành được một đề cử Cống hiến cho bài \"Huyền thoại\" năm 2019. Vào đầu năm 2020, anh nhận được 2 giải thưởng Làn Sóng Xanh 2019 tại các hạng mục \"Ca khúc Nhạc phim được yêu thích nhất\" và \"Top 10 Ca khúc được yêu thích nhất\" với sáng tác \"Có chàng trai viết lên cây\". "
+    },
+    {
+        "id": "CE018",
+        "name": "Angela Phương Trinh",
+        "description": "Diễn viên",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Angela_Ph%C6%B0%C6%A1ng_Trinh",
+        "article": "Lê Ngọc Phương Trinh, hay còn được khán giả biết đến với nghệ danh Angela Phương Trinh, là một nữ diễn viên, ca sĩ, người mẫu người Việt Nam. "
+    },
+    {
+        "id": "CE019",
+        "name": "Bà Tân Vlog",
+        "description": "Nông dân",
+        "wiki_url": "https://vi.wikipedia.org/wiki/B%C3%A0_T%C3%A2n_Vlog",
+        "article": "Nguyễn Thị Tân, thường được biết đến với tên gọi Bà Tân Vlog là một YouTuber nổi tiếng người Việt Nam. Kênh của bà hiện có hơn 4 triệu lượt đăng ký và hơn 900 triệu lượt xem trên kênh YouTube Bà Tân Vlog.\n"
+    },
+    {
+        "id": "CE020",
+        "name": "Hồ Quang Hiếu",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Quang_Hi%E1%BA%BFu",
+        "article": "Nguyễn Quang Hiếu, nổi tiếng với nghệ danh Hồ Quang Hiếu là một nam ca sĩ và diễn viên người Việt Nam. Anh sở hữu khuôn mặt điển trai, chất giọng đẹp, ấm áp phù hợp với các ca khúc ballad nhẹ nhàng, thành công sau bài hit đầu tiên trong sự nghiệp âm nhạc của mình trích từ album cùng tên \"Chỉ cần em hạnh phúc\". "
+    },
+    {
+        "id": "CE021",
+        "name": "Duy Mạnh",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Duy_M%E1%BA%A1nh",
+        "article": "Duy Mạnh là một ca sĩ, nhạc sĩ người Việt Nam. Anh bắt đầu nổi tiếng từ năm 2005 với album đầu tay \"Tình em là đại dương\" gồm một loạt ca khúc trở thành hiện tượng của nhạc Việt lúc đó."
+    },
+    {
+        "id": "CE022",
+        "name": "Orange",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Orange_(ca_s%C4%A9)",
+        "article": "Khương Hoàn Mỹ thường được biết đến với nghệ danh Orange, là một nữ ca sĩ người Việt Nam. Cô bắt đầu trở nên nổi tiếng sau khi phát hành ca khúc \"Người lạ ơi!\" kết hợp cùng Superbrothers và Karik."
+    },
+    {
+        "id": "CE023",
+        "name": "Bảo Thy",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/B%E1%BA%A3o_Thy",
+        "article": "Trần Thị Thúy Loan, thường được biết đến với nghệ danh Bảo Thy, là một nữ ca sĩ, nhạc sĩ, diễn viên điện ảnh, người dẫn chương trình, người mẫu ảnh kiêm nhà kinh doanh theo đạo Công Giáo người Việt Nam. "
+    },
+    {
+        "id": "CE024",
+        "name": "Miu Lê",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Miu_L%C3%AA",
+        "article": "Lê Ánh Nhật, nổi tiếng với nghệ danh Miu Lê, là một nữ ca sĩ kiêm diễn viên tay ngang nổi tiếng người Việt Nam, cô xuất hiện lần đầu vào năm 2009."
+    },
+    {
+        "id": "CE025",
+        "name": "Bùi Anh Tuấn",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/B%C3%B9i_Anh_Tu%E1%BA%A5n",
+        "article": "Bùi Anh Tuấn còn được gọi thân mật là Tuấn Bùi hay Tuấn Tồ là một nam ca sĩ người Việt Nam. Anh bắt đầu được biết đến khi giành lần lượt giải Nhất các cuộc thi Coca-cola music award và Ngôi sao tiếng hát truyền hình năm 2011, và trở nên nổi tiếng trong giới trẻ kể từ khi tham gia The voice Vietnam 2012 với ca khúc \"Nơi tình yêu bắt đầu\" của nhạc sĩ Phùng Tiến Minh."
+    },
+    {
+        "id": "CE026",
+        "name": "Lam Trường",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Lam_Tr%C6%B0%E1%BB%9Dng",
+        "article": "Lam Trường tên đầy đủ là Tiêu Lam Trường là một ca sĩ và diễn viên nồi tiếng người Việt gốc Hoa. Anh thường được người hâm mộ gọi thân mật là \"Anh Hai\" và thường viết là \"A2\". "
+    },
+    {
+        "id": "CE027",
+        "name": "Huỳnh Lập",
+        "description": "Diễn viên hài",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Hu%E1%BB%B3nh_L%E1%BA%ADp",
+        "article": "Huỳnh Lập là một diễn viên hài, đạo diễn, biên kịch người Việt Nam. Anh nổi tiếng sau khi đoạt giải Quán quân cuộc thi \"Cười Xuyên Việt\" năm 2015."
+    },
+    {
+        "id": "CE028",
+        "name": "PewPew",
+        "description": "Streamer",
+        "wiki_url": "https://vi.wikipedia.org/wiki/PewPew",
+        "article": "Hoàng Văn Khoa là một streamer, caster người Việt Nam, nổi tiếng qua việc bình luận những tựa game như Dota 2, Liên Minh Huyền Thoại cùng một số chương trình truyền hình. Anh cũng từng tham gia diễn xuất trong bộ phim Nụ hôn ký ức."
+    },
+    {
+        "id": "CE029",
+        "name": "Vân Trang",
+        "description": "Diễn viên",
+        "wiki_url": "https://vi.wikipedia.org/wiki/V%C3%A2n_Trang",
+        "article": "Vân Trang tên khai sinh Nguyễn Ngọc Thùy Trang là diễn viên, ca sĩ và MC nổi tiếng người Việt Nam. Cô được khán giả biết đến là một nữ diễn viên thực lực và là gương mặt nổi bật với nhiều vai diễn quan trọng qua các bộ phim điện ảnh và truyền hình.\n"
+    },
+    {
+        "id": "CE030",
+        "name": "Mỹ Linh",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/M%E1%BB%B9_Linh",
+        "article": "Mỹ Linh là một nữ ca sĩ kiêm sáng tác nhạc, giám khảo truyền hình và huấn luyện viên thanh nhạc người Việt Nam. Được mệnh danh là \"Nữ hoàng R&amp;B Việt Nam\", cô là một trong những nghệ sĩ nhạc Việt bán đĩa nhạc chạy nhất mọi thời đại, với doanh số hơn 2 triệu bản thu âm trên toàn quốc. "
+    },
+    {
+        "id": "CE031",
+        "name": "Lê Bê La",
+        "description": "Diễn viên",
+        "wiki_url": "https://vi.wikipedia.org/wiki/L%C3%AA_B%C3%AA_La",
+        "article": "Lê Thị Bê La, thường được biết đến với nghệ danh Lê Bê La là một nữ diễn viên truyền hình, diễn viên điện ảnh kiêm diễn viên kịch nói nổi tiếng của Việt Nam. "
+    },
+    {
+        "id": "CE032",
+        "name": "Quang Vinh",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Quang_Vinh_(ca_s%C4%A9)",
+        "article": "Quang Vinh là một nam ca sĩ nhạc trẻ người Việt Nam.\nAnh được phát hiện năng khiếu ca hát từ nhỏ, năm 11 tuổi Quang Vinh tham gia sinh hoạt ở đội Sơn Ca Nhà Thiếu Nhi Quận 1, và bắt đầu nổi tiếng với các ca khúc thiếu nhi: Cho con, Mẹ hiền, Thằng Bờm, Tây Du Ký...\n"
+    },
+    {
+        "id": "CE033",
+        "name": "Trọng Tấn",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Dng_T%E1%BA%A5n",
+        "article": "Vũ Trọng Tấn là một ca sĩ người Việt Nam. Anh có sở trường là các nhạc phẩm truyền thống và cách mạng, có chất giọng Tenor, học vị thạc sĩ.\n"
+    },
+    {
+        "id": "CE034",
+        "name": "Thanh Thảo",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Thanh_Th%E1%BA%A3o_(ca_s%C4%A9)",
+        "article": "Phạm Trịnh Phương Thảo là một nữ ca sĩ người Việt Nam được khán giả biết đến với nghệ danh Thanh Thảo và biệt danh là \"Búp bê\". Thanh Thảo thuộc cung Song Ngư, cầm tinh con rắn. Thanh Thảo xếp hạng nổi tiếng thứ 2338 trên thế giới và thứ 369 trong danh sách Ca sĩ nổi tiếng. Nghệ danh \"Thanh Thảo\" do cô chọn để tránh không trùng với nghệ danh của ca sĩ Phương Thảo. "
+    },
+    {
+        "id": "CE035",
+        "name": "Ốc Thanh Vân",
+        "description": "Diễn viên",
+        "wiki_url": "https://vi.wikipedia.org/wiki/%E1%BB%90c_Thanh_V%C3%A2n",
+        "article": "Ốc Thanh Vân là một nữ diễn viên kịch nói, diễn viên điện ảnh - truyền hình, diễn viên lồng tiếng và MC nổi tiếng người Việt Nam. Cô là một diễn viên tài năng, sáng giá của nền điện ảnh nước nhà.\n"
+    },
+    {
+        "id": "CE036",
+        "name": "Quốc Thiên",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Qu%E1%BB%91c_Thi%C3%AAn",
+        "article": "Quốc Thiên tên đầy đủ Trần Quốc Thiên là một nam ca sĩ Việt Nam. Anh là người thắng cuộc của chương trình Thần tượng âm nhạc: Vietnam Idol mùa thứ 2, được tổ chức năm 2008-2009. "
+    },
+    {
+        "id": "CE037",
+        "name": "Thu Thủy",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Thu_Th%E1%BB%A7y_(ca_s%C4%A9)",
+        "article": "Thu Thủy có tên đầy đủ là Nguyễn Thu Thủy là một nữ ca sĩ, nhạc sĩ, diễn viên, nhà sản xuất âm nhạc, người mẫu ảnh kiêm người dẫn chương trình nổi tiếng người Việt Nam. "
+    },
+    {
+        "id": "CE038",
+        "name": "Nguyệt Ánh",
+        "description": "Diễn viên",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%87t_%C3%81nh",
+        "article": "Nguyệt Ánh tên đầy đủ Nguyễn Thị Nguyệt Ánh là một nữ diễn viên truyền hình, diễn viên điện ảnh và diễn viên kịch nói nổi tiếng người Việt Nam. "
+    },
+    {
+        "id": "CE039",
+        "name": "Minh Nhí",
+        "description": "Diễn viên",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Minh_Nh%C3%AD",
+        "article": "Minh Nhí tên thật là Trương Hùng Minh là một diễn viên hài - kịch nói, diễn viên điện ảnh - truyền hình và giám khảo truyền hình nổi tiếng người Việt Nam. "
+    },
+    {
+        "id": "CE040",
+        "name": "Quý Bình",
+        "description": "Diễn viên",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Qu%C3%BD_B%C3%ACnh",
+        "article": "Lê Ngọc Bình nổi tiếng với nghệ danh Quý Bình, là một nam diễn viên người Việt Nam. Năm 2016, anh đoạt giải quán quân chương trình Tình Bolero."
+    },
+    {
+        "id": "CE041",
+        "name": "Hòa Hiệp",
+        "description": "Diễn viên",
+        "wiki_url": "https://vi.wikipedia.org/wiki/H%C3%B2a_Hi%E1%BB%87p_(di%E1%BB%85n_vi%C3%AAn)",
+        "article": "Hòa Hiệp, tên đầy đủ là Nguyễn Hòa Hiệp là một nam diễn viên điện ảnh, diễn viên truyền hình, diễn viên kịch nói và đạo diễn sân khấu nổi tiếng người Việt Nam. Hòa Hiệp là một nghệ sĩ đa tài và có thực lực, được công chúng yêu mến và công nhận. "
+    },
+    {
+        "id": "CE042",
+        "name": "Nguyên Vũ",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Nguy%C3%AAn_V%C5%A9_(ca_s%C4%A9)",
+        "article": "Nguyên Vũ tên đầy đủ Lê Nguyên Vũ là ca sĩ, diễn viên, MC và giám khảo truyền hình nổi tiếng người Việt Nam.\nNguyên Vũ từng là cái tên rất nổi tiếng những thế hệ 9x với rất nhiều bài hit, có mặt hầu hết trên thị trường băng đĩa nhạc. "
+    },
+    {
+        "id": "CE043",
+        "name": "Huỳnh Đông",
+        "description": "Diễn viên",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Hu%E1%BB%B3nh_%C4%90%C3%B4ng",
+        "article": "Huỳnh Đông là một nam diễn viên, ca sĩ, diễn viên lồng tiếng, đạo diễn điện ảnh người Việt Nam. Anh bắt đầu nổi tiếng với vai Quân trong bộ phim Gọi giấc mơ về. "
+    },
+    {
+        "id": "CE044",
+        "name": "Ngọc Lan",
+        "description": "Diễn viên",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Ng%E1%BB%8Dc_Lan_(di%E1%BB%85n_vi%C3%AAn)",
+        "article": "Nguyễn Ngọc Lan là một nữ diễn viên điện ảnh - truyền hình, diễn viên kịch nói, MC nổi tiếng người Việt Nam. Ngọc Lan là diễn viên thực lực, có khả năng diễn xuất nổi trội được chứng minh qua nhiều vai diễn truyền hình thành công.\n"
+    },
+    {
+        "id": "CE045",
+        "name": "Kha Ly",
+        "description": "Diễn viên",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Kha_Ly",
+        "article": "Kha Ly là nữ diễn viên truyền hình, diễn viên kịch nói và ca sĩ nổi tiếng người Việt Nam. Kha Ly là một nghệ đĩ đa tài, cô có thể hoạt động nghệ thuật ở nhiều lĩnh vực và đã gặp hái được những thành công nhất định. "
+    },
+    {
+        "id": "CE046",
+        "name": "Don Nguyễn",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Don_Nguy%E1%BB%85n",
+        "article": "Don Nguyễn là một nam ca sĩ và diễn viên người Việt Nam. Anh được biết đến với tư cách là tác giả của các clip nhái lại các phần trình diễn của các ca sĩ, nghệ sĩ nổi tiếng trong nước được lan truyền trên mạng Internet."
+    },
+    {
+        "id": "CE047",
+        "name": "Thanh Ngọc",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Thanh_Ng%E1%BB%8Dc_(ca_s%C4%A9)",
+        "article": "Thanh Ngọc, tên đầy đủ là Lê Thanh Ngọc, là một nữ ca sĩ, diễn viên kiêm người dẫn chương trình nổi tiếng người Việt Nam. Năm 1998, Thanh Ngọc trở thành trưởng nhóm Mắt Ngọc, cùng với Quỳnh Anh, Thúy Nga và Duy Uyên là 4 giọng ca nổi bật được Nhà thiếu nhi thành phố tuyển chọn.\n"
+    },
+    {
+        "id": "CE048",
+        "name": "Ngô Kiến Huy",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Ng%C3%B4_Ki%E1%BA%BFn_Huy",
+        "article": "Lê Thành Dương, hay còn được biết đến với nghệ danh Ngô Kiến Huy, là một nam ca sĩ, diễn viên và người dẫn chương trình người Việt Nam. Anh còn được gọi là Bắp, bắt nguồn từ họ của mình. "
+    },
+    {
+        "id": "CE049",
+        "name": "Hiếu Thứ Hai",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/Hieuthuhai",
+        "article": "Trần Minh Hiếu, thường được biết đến với nghệ danh HIEUTHUHAI hoặc hieuthuhai, là một nam rapper, nhạc sĩ kiêm diễn viên người Việt Nam. Anh hiện đang là thành viên của nhóm nhạc GERDNANG.\nAnh bắt đầu trở nên nổi tiếng sau khi tham gia chương trình Thế giới Rap – King of Rap mùa đầu tiên. Ngoài ra, anh cũng là thành viên chính trong chương trình truyền hình thực tế 2 ngày 1 đêm. Anh đã được đề cử Ca sĩ đột phá Giải thưởng Làn Sóng Xanh 2022 và Ca sĩ mới của năm Giải thưởng Cống hiến."
+    },
+    {
+        "id": "CE050",
+        "name": "Hòa Minzy",
+        "description": "Ca sĩ",
+        "wiki_url": "https://vi.wikipedia.org/wiki/H%C3%B2a_Minzy",
+        "article": "Nguyễn Thị Hòa, thường được biết đến với nghệ danh Hòa Minzy, là một nữ ca sĩ kiêm diễn viên người Việt Nam. Cô được biết đến sau khi đạt giải Quán quân của chương trình Học viện Ngôi sao mùa đầu tiên vào năm 2014. Cô là cựu thành viên của nhóm Ruby."
+    }
+]
