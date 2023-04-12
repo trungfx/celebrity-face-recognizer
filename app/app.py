@@ -37,7 +37,7 @@ class Image(Resource):
         results = predict(ofname)
         # formatting the results as a JSON-serializable structure:
         results_json = json.dumps(results)
-        print(results_json)
+        # print(results_json)
 
         return results_json
 

@@ -1,6 +1,0 @@
-deepface
-Flask
-Flask-RESTful
-mtcnn
-numpy
-tqdm

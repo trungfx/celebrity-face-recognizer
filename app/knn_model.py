@@ -6,7 +6,7 @@ import json
 
 def load_model(model_path=None):
     if not model_path:
-        model_path = "../data/models/knn_5_cosine_distance_vggface.pkl"
+        model_path = "data/models/knn_5_cosine_distance_vggface.pkl"
 
     # Load model
     with open(model_path, 'rb') as f:
@@ -17,7 +17,7 @@ def load_model(model_path=None):
 
 def load_celeb():
     # load data từ json
-    with open('../data/json/vietnam_celeb.json', 'r', encoding='utf-8') as f:
+    with open('data/json/vietnam_celeb.json', 'r', encoding='utf-8') as f:
         celeb = json.load(f)
 
     return celeb
