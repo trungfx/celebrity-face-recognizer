@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask,jsonify
 from flask_restful import Resource, Api, reqparse
 from werkzeug.datastructures import FileStorage
 from knn_model import predict
@@ -36,12 +36,13 @@ class Image(Resource):
         # predict
         results = predict(ofname)
         # formatting the results as a JSON-serializable structure:
-        results_json = json.dumps(results)
-        # print(results_json)
+        results_json = jsonify(results)
+        print(results_json)
 
         return results_json
 
 
+api.add_resource(Hello, '/')
 api.add_resource(Hello, '/hello')
 api.add_resource(Image, '/image')
 
