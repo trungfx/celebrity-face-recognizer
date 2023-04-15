@@ -1,6 +1,12 @@
-deepface
-Flask
+deepface~=0.0.79
+Flask~=2.2.3
 Flask-RESTful
 mtcnn
-numpy
-tqdm
+numpy~=1.23.5
+tqdm~=4.65.0
+
+icrawler~=0.6.6
+requests~=2.28.2
+scikit-learn~=1.2.2
+opencv-python~=4.7.0.72
+werkzeug~=2.2.3

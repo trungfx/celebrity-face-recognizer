@@ -1,9 +1,9 @@
-from flask import Flask,jsonify
+from flask import Flask, jsonify
 from flask_restful import Resource, Api, reqparse
 from werkzeug.datastructures import FileStorage
 from knn_model import predict
 import tempfile
-import json
+# import json
 
 app = Flask(__name__)
 app.logger.setLevel('INFO')
@@ -37,7 +37,7 @@ class Image(Resource):
         results = predict(ofname)
         # formatting the results as a JSON-serializable structure:
         results_json = jsonify(results)
-        print(results_json)
+        # print(results_json)
 
         return results_json
 
