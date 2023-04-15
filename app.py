@@ -42,7 +42,6 @@ class Image(Resource):
         return results_json
 
 
-api.add_resource(Hello, '/')
 api.add_resource(Hello, '/hello')
 api.add_resource(Image, '/image')
 
