@@ -49,5 +49,7 @@ def predict(image_path):
     knn = load_model()
     predictions = knn.predict(embeddings)
     result_data = get_data(predictions)
+    for i in range(len(result_data)):
+        result_data[i]['facial_area'] = facial_area[i]
 
     return result_data
