@@ -1,4 +1,6 @@
 ﻿# celebrity-face-recognizer
+## Install missing package
+`pip install -r requirements.txt`
 
 ## Run app
 `python ./app/app.py`
