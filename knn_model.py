@@ -25,16 +25,13 @@ def load_celeb():
 
 def get_data(predictions):
     predicted_celebs = []
-    predicted_celeb_ids = set()
 
     celeb = load_celeb()
 
     for prediction in predictions:
-        if prediction not in predicted_celeb_ids:
-            for celeb_info in celeb:
-                if celeb_info['id'] == prediction:
-                    predicted_celebs.append(celeb_info)
-                    predicted_celeb_ids.add(prediction)
+        for celeb_info in celeb:
+            if celeb_info['id'] == prediction:
+                predicted_celebs.append(celeb_info)
 
     return predicted_celebs
 
@@ -45,11 +42,31 @@ def predict(image_path):
                                                            normalization="base",
                                                            detector_backend="mtcnn")
 
+    if len(embeddings) == 0:
+        return []
+
     embeddings = np.array(embeddings)
     knn = load_model()
-    predictions = knn.predict(embeddings)
+    # predictions = knn.predict(embeddings)
+
+    # Tính xác xuất
+    y_pred_prob = knn.predict_proba(embeddings)
+    y_pred_class = knn.classes_[np.argmax(y_pred_prob, axis=1)]
+    y_pred_prob_max = np.max(y_pred_prob, axis=1)
+
+    # Lọc với ngưỡng
+    threshold = 0.6
+    y_pred_threshold = np.where(y_pred_prob_max > threshold, y_pred_class, None)
+
+    predictions = list(filter(None, y_pred_threshold))
+    facial_area = [fa for i, fa in enumerate(facial_area) if y_pred_threshold[i] is not None]
+
+    # Lấy dữ liệu người nổi tiếng
     result_data = get_data(predictions)
-    for i in range(len(result_data)):
-        result_data[i]['facial_area'] = facial_area[i]
+
+    # Thêm vị trí khuôn mặt
+    if len(result_data) > 0:
+        for i in range(len(result_data)):
+            result_data[i]['facial_area'] = facial_area[i]
 
     return result_data

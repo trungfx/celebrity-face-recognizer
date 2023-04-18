@@ -18,6 +18,9 @@ def embedding_vector_with_detect(image_path, model="VGG-Face", normalization="ba
                                         enforce_detection=False,
                                         align=True)
 
+    if embedding_objs[0]["facial_area"]["x"] == 0 and embedding_objs[0]["facial_area"]["y"] == 0:
+        return [], []
+
     for embedding_obj in embedding_objs:
         embeddings.append(embedding_obj["embedding"])
         facial_area.append(embedding_obj["facial_area"])
