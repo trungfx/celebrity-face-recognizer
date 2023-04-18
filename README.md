@@ -2,15 +2,15 @@
 ## Install missing package
 `pip install -r requirements.txt`
 
-## Run app
+### Run app
 `python ./app/app.py`
 
 `flask run --port=5000 --host=0.0.0.0`
 
-## GET _/hello_
+### GET _/hello_
 `{"status": true}`
 
-## POST _/image_
+### POST _/image_
 [   
     {
         "id": "CE004",   
@@ -28,7 +28,36 @@
     }    
 ]
 
-## TEST endpoint
+### TEST endpoint
 curl localhost:5000/image -F file=@abc.jpg    
+
+## Server Config
+
+### create my_flask_app.service
+`sudo nano /etc/systemd/system/my_flask_app.service`
+
+### Add content
+[Unit]
+Description=My Flask App
+After=network.target
+
+[Service]
+User=trung
+WorkingDirectory=/home/trung/celebrity-face-recognizer
+ExecStart=/usr/bin/python3 -m flask run --host=0.0.0.0 --port=80
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+
+### Restart
+`sudo systemctl daemon-reload`
+
+### Start
+`sudo systemctl start my_flask_app.service`
+
+### Start on Boot
+`sudo systemctl enable my_flask_app.service`
 
 
