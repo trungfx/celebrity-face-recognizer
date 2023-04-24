@@ -37,18 +37,18 @@ curl localhost:5000/image -F file=@abc.jpg
 `sudo nano /etc/systemd/system/my_flask_app.service`
 
 ### Add content
-[Unit]
-Description=My Flask App
-After=network.target
+[Unit]    
+Description=My Flask App     
+After=network.target       
 
-[Service]
-User=trung
-WorkingDirectory=/home/trung/celebrity-face-recognizer
-ExecStart=/usr/bin/python3 -m flask run --host=0.0.0.0 --port=80
-Restart=always
+[Service]      
+User=trung     
+WorkingDirectory=/home/trung/celebrity-face-recognizer       
+ExecStart=/usr/bin/python3 -m flask run --host=0.0.0.0 --port=5000     
+Restart=always       
 
-[Install]
-WantedBy=multi-user.target
+[Install]      
+WantedBy=multi-user.target      
 
 
 ### Restart
