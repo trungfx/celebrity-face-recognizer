@@ -34,11 +34,11 @@ curl localhost:5000/image -F file=@abc.jpg
 ## Server Config
 
 ### create my_flask_app.service
-`sudo nano /etc/systemd/system/my_flask_app.service`
+`sudo nano /etc/systemd/system/celebrity-face-recognizer.service`
 
 ### Add content
 [Unit]    
-Description=My Flask App     
+Description=My Flask App - celebrity-face-recognizer          
 After=network.target       
 
 [Service]      
@@ -55,9 +55,9 @@ WantedBy=multi-user.target
 `sudo systemctl daemon-reload`
 
 ### Start
-`sudo systemctl start my_flask_app.service`
+`sudo systemctl start celebrity-face-recognizer.service`
 
 ### Start on Boot
-`sudo systemctl enable my_flask_app.service`
+`sudo systemctl enable celebrity-face-recognizer.service`
 
 
